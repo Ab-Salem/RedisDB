@@ -58,14 +58,4 @@ It also demonstrates adding a new charm ("Earthquake") and then finding similar 
 
 The script generates visualizations showing the charms in 2D space with similarity connections to the query vector.
 
-## Project Extension Ideas
 
-1. Implement k-nearest neighbors search algorithm for larger datasets
-2. Add more dimensions to the vectors for more detailed charm attributes
-3. Create a simple web interface for query visualization
-4. Implement a recommendation system based on user preferences
-5. Add auth & permission system to protect special charms
-
-## License
-
-MIT
