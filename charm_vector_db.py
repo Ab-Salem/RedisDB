@@ -112,8 +112,9 @@ def visualize_charms_2d(highlight_charm=None, query_vector=None):
     plt.ylabel('Protection Level')
     plt.title('Charm Vector Space (Power vs Protection)')
     plt.grid(True, alpha=0.3)
-    plt.colorbar(plt.cm.ScalarMappable(cmap='viridis'), 
-                 label='Similarity score')
+    
+    # No colorbar in this version
+    
     plt.tight_layout()
     plt.savefig('charm_visualization.png')
     plt.show()
